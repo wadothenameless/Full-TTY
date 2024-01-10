@@ -4,33 +4,34 @@ Switching to TTY
 
 First, we check if we are in an interactive TTY (Text Terminal).
 
-bash
-
+```bash
 tty
+```
 
 If we are not in a TTY, we spawn one with:
 
-bash
 
+```bash
 script /dev/null -c bash
+```
 
 Now, we suspend the connection with Ctrl+Z to the machine and enter the following command:
 
-bash
-
+```bash
 stty raw -echo; fg
+```
 
-Press Enter and enter the following command:
+Press Enter and type the following command:
 
-bash
-
+```bash
 reset xterm
+```
 
 Now, we can use Ctrl+C, to enable Ctrl+L:
 
-bash
-
+```bash
 export TERM=xterm
+```
 
 Changing SHELL to bash
 
