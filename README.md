@@ -66,4 +66,4 @@ Finally, configure the rows and columns of the terminal to have the same dimensi
 ```bash
 stty rows 43 columns 169
 ```
-
+Instructions and commands by: https://www.youtube.com/@s4vitar
