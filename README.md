@@ -65,5 +65,5 @@ Finally, configure the rows and columns of the terminal to have the same dimensi
 
 ```bash
 stty rows 43 columns 169
-``
+```
 
